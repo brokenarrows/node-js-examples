@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-examples",
+  "version": "1.0.0",
+  "description": "These are CoffeeScript snippets for code review",
+  "main": "*",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brokenarrows/nodejs-examples.git"
+  },
+  "author": "Karim Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brokenarrows/nodejs-examples/issues"
+  },
+  "homepage": "https://github.com/brokenarrows/nodejs-examples#readme"
+}
