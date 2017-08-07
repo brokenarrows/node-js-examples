@@ -22,7 +22,10 @@ client = (queue, data) ->
       return
     return
   ).listen(->
-    request.post 'http://localhost'+server.address().port+'/queues/' + queue + '/consumers', { form: callback_url: 'http://localhost'+server.address().port}, (error, resource, body) ->
+    request.post 'http://localhost' + server.address().port + '/queues/' + queue + '/consumers', {
+      form:
+        callback_url: 'http://localhost' + server.address().port
+    }, (error, resource, body) ->
       if error
         console.warn 'Failed URL request...'
       return

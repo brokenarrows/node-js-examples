@@ -12,7 +12,7 @@ exports.put = (request, resource) ->
     return resource.status(500).json(
       status: 'error'
       error: 'queue:not_found')
-  if ! typeof name == 'string'
+  if !typeof name == 'string'
     return resource.status(500).json(
       status: 'error'
       error: 'name:must_be_string')
